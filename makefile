@@ -18,6 +18,6 @@ classes: $(CLASSES:.java=.class)
 run:
 	start cmd /k "$(JVM) TCPServer 6789"
 	TIMEOUT /T 1
-	start cmd /k $(JVM) AutoTCPClient 6789 6789 Ian
-	start cmd /k $(JVM) AutoTCPClient 6790 6789 Adil
-	start cmd /k $(JVM) AutoTCPClient 6791 6789 Usaid
+	start cmd /k $(JVM) AutoTCPClient 6789 6789 Sarah
+	start cmd /k $(JVM) AutoTCPClient 6790 6789 John
+	start cmd /k $(JVM) AutoTCPClient 6791 6789 Smith
